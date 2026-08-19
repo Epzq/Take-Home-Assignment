@@ -38,6 +38,9 @@ Logging written to JSON to `./logs/run_seed_{seed}_{timestamp}.json` locally as 
 Each record contains the seed, the data version tag, the full metric set, the promotion verdict, the resolved arguments, and the step training history(i.e loss).\
 Additionally, structured JSON could be load into a dashboard later if needed.
 
+### One thing you’d change with more time
+Containerize the project to lock down system-level environment and keep model runtime configuration self-contained easier to deploy to isolated environment.
+Also prevents things from breaking due to changes in depencies or changes at PyPI
 ---
 
 ## Repository Structure
