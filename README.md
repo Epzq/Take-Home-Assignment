@@ -40,7 +40,8 @@ Additionally, structured JSON could be load into a dashboard later if needed.
 
 ### One thing you’d change with more time
 Containerize the project to lock down system-level environment and keep model runtime configuration self-contained easier to deploy to isolated environment.
-Also prevents things from breaking due to changes in depencies or changes at PyPI
+Also prevents things from breaking due to changes in depencies or changes at PyPI.
+
 ---
 
 ## Repository Structure
