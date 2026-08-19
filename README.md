@@ -54,8 +54,10 @@ TASK_B/
 │   └── utils.py                    # Data loading/versioning, evaluation, promotion
 ├── tests/
 │   └── test_pipe.py                # Unit tests for promotion logic and versioning
+├── README.md
 ├── requirements.txt
-└── README.md
+└── Written_answers.pdf             # PDF file containing written answers for part A and C
+```
 ---
 
 ## Setup
