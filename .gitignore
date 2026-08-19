@@ -1,0 +1,50 @@
+# ---- Model weights & checkpoints (exceed GitHub's 100MB file limit) ----
+# Ignore contents but keep the directories so the layout is reproducible.
+models/*
+ckpts/*
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.h5
+*.ot
+*.msgpack
+*.onnx
+
+# ---- Data: raw CSVs and versioned dataset snapshots ----
+data/*
+*.arrow
+
+# ---- Run outputs ----
+logs/*
+runs/
+wandb/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---- Environments ----
+.venv/
+venv/
+env/
+.conda/
+
+# ---- Tooling caches ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Keep directory placeholders so the layout is reproducible
+!**/.gitkeep
